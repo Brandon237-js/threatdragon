@@ -53,16 +53,84 @@
               "angle": 0,
               "id": "daafbd97-381f-41b4-b066-9f9399105dd6",
               "z": 2,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
+                  "title": "Generic spoofing threat",
+                  "type": "Spoofing",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic spoofing threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "b55a61d1-84b8-4546-a9d1-694d1d01c3ed"
+                },
+                {
+                  "ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+                  "title": "Generic tampering threat",
+                  "type": "Tampering",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic tampering threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "d1a7d37a-4386-4c34-bbc9-3f01b88f30c0"
+                },
+                {
+                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+                  "title": "Generic repudiation threat",
+                  "type": "Repudiation",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic repudiation threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "06704839-111b-4e38-839d-30acb7d29b5d"
+                },
+                {
+                  "ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
+                  "title": "Generic information disclosure threat",
+                  "type": "Information disclosure",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic information disclosure threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "4921ebbc-61b3-4338-b9b9-8f2f82b1ee3b"
+                },
+                {
+                  "ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+                  "title": "Generic DoS threat",
+                  "type": "Denial of service",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic DoS threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "feab36a7-6586-45f9-b7b3-9cf3c9af1a45"
+                },
+                {
+                  "ruleId": "c1377855-ea20-4c97-8861-f95c364fb8d2",
+                  "title": "Generic elevation threat",
+                  "type": "Elevation of privilege",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic elevation of privileges threat",
+                  "mitigation": "Mitigation or prevention for the threat",
+                  "threatId": "bdee307e-7c72-42ff-ba61-3033877d9209"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Login System\nWebapp\n+Mobile App"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -944,10 +1012,65 @@
               "z": 25,
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.4747166107775913,
+                    "offset": -70.73844160436373
+                  },
                   "attrs": {
                     "text": {
-                      "text": "2.",
+                      "text": "Externe Service für\nden Telefonnummera\nuflösung",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 959,
+                "y": 183
+              },
+              "target": {
+                "x": 966,
+                "y": 184
+              },
+              "vertices": [
+                {
+                  "x": 1036,
+                  "y": 223
+                },
+                {
+                  "x": 1033,
+                  "y": 542
+                },
+                {
+                  "x": 828,
+                  "y": 480
+                },
+                {
+                  "x": 873,
+                  "y": 212
+                }
+              ],
+              "id": "d0f2a409-9835-40df-a3b0-48d3a41f11b1",
+              "z": 26,
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.14597259751633737,
+                    "offset": -77.58138509971405
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Externe Service für\nden Versand des OTT",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -960,7 +1083,7 @@
         },
         "size": {
           "height": 590,
-          "width": 1183
+          "width": 1537
         }
       }
     ],
