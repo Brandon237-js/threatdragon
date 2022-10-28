@@ -1,0 +1,19 @@
+{
+  "summary": {
+    "title": "DevSecOps",
+    "owner": "Brandon237",
+    "description": "One-time Token Authentifizierungssystem"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "One-time Token Authentifizierungssystem",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "diagramType": "STRIDE",
+        "id": 0
+      }
+    ],
+    "reviewer": "Alex"
+  }
+}
