@@ -86,6 +86,16 @@
                   "title": "Logdateien Angrif",
                   "threatId": "5d45b00f-6cab-4cbc-a780-218d8f514b58",
                   "mitigation": "Verschlüsselung und kein Speichern von Geheinmissen"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "title": "XSS Angriff",
+                  "description": "XSS durch UserInput in Gästebuch und dann mitlesen der zukünftige OTTs",
+                  "type": "Elevation of privilege",
+                  "mitigation": "Pincipe of least Privilege",
+                  "threatId": "8c65b173-e42f-4648-a0f4-51fd7b838fad"
                 }
               ],
               "attrs": {
@@ -124,6 +134,16 @@
                   "mitigation": "IP-Sperrlisten: Sperrlisten ermöglichen es, kritische IP-Adressen zu identifizieren und Datenpakete direkt zu verswerfen",
                   "type": "Denial of service",
                   "threatId": "070efae4-b198-49ce-8af7-6a2e8ec6f4e1"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "description": "Log Dateien Abfragen via Email Service.im Klartext verschickt und somit beliebig modifizierbar",
+                  "type": "Repudiation",
+                  "title": "Log Datei Angriff",
+                  "mitigation": "Verwendung von Signaturen",
+                  "threatId": "62675fcd-c12b-4f3a-89b4-89094999fded"
                 }
               ],
               "attrs": {
@@ -690,8 +710,8 @@
                 "height": 80
               },
               "position": {
-                "x": 351,
-                "y": 264
+                "x": 339,
+                "y": 303
               },
               "angle": 0,
               "id": "ece89a7e-0067-4ac3-972b-69fe34d40ee4",
