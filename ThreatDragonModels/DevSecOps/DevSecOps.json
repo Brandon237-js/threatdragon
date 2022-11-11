@@ -31,7 +31,7 @@
               "threats": [
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "Low",
                   "modelType": "STRIDE",
                   "description": "Stehlen von Sensibel Daten",
                   "type": "Spoofing",
@@ -79,7 +79,7 @@
                 },
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "modelType": "STRIDE",
                   "description": "Auslesen von Logdateien in der Webapp(cookie)",
                   "type": "Information disclosure",
@@ -117,7 +117,7 @@
               "threats": [
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "modelType": "STRIDE",
                   "title": "DDoS Angriff",
                   "description": "Angriff via botnetzt DDoS vielen Anfragen an der Dienst",
@@ -155,7 +155,7 @@
               "threats": [
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "Low",
                   "modelType": "STRIDE",
                   "title": "Authentifizierung VPNAngriff",
                   "type": "Information disclosure",
@@ -165,7 +165,7 @@
                 },
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "modelType": "STRIDE",
                   "title": "symmetrischen Schlüssels Angriff",
                   "type": "Information disclosure",
@@ -738,7 +738,7 @@
               "threats": [
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "modelType": "STRIDE",
                   "description": "Angriff über SQL-Injektion (SQLi)",
                   "title": "SQL-Injektion Angriff",
@@ -802,7 +802,7 @@
               "threats": [
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "modelType": "STRIDE",
                   "title": "SQL-Injektion Angriffe",
                   "description": "Angriff über SQL-Injektion (SQLi)",
@@ -1086,8 +1086,8 @@
                 "height": 80
               },
               "position": {
-                "x": 1017,
-                "y": 348
+                "x": 1018,
+                "y": 349
               },
               "angle": 0,
               "id": "ca9907e7-cf52-4b3c-9f00-852c84463727",
@@ -1308,7 +1308,7 @@
               "threats": [
                 {
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "modelType": "STRIDE",
                   "title": "SQL-Injektion Angriffe",
                   "description": "Angriff über SQL-Injektion (SQLi)",
@@ -1601,6 +1601,44 @@
                 }
               ],
               "z": 53,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "bff54c95-b11b-4128-9a7b-e9c34e6de7ae"
+              },
+              "target": {
+                "id": "97f5da91-f5ca-4e38-ac9a-85069e681952"
+              },
+              "vertices": [],
+              "id": "f5aade28-7ea6-4120-9ee4-67873c803db7",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 39",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 54,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
