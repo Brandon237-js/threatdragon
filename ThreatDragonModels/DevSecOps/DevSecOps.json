@@ -21,16 +21,16 @@
                 "height": 80
               },
               "position": {
-                "x": 26,
+                "x": 25,
                 "y": 169
               },
               "angle": 0,
               "id": "97f5da91-f5ca-4e38-ac9a-85069e681952",
               "z": 1,
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "threats": [
                 {
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "Low",
                   "modelType": "STRIDE",
                   "description": "Stehlen von Sensibel Daten",
@@ -42,13 +42,13 @@
               ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
                   "text": "User"
                 },
                 ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -65,10 +65,10 @@
               "angle": 0,
               "id": "daafbd97-381f-41b4-b066-9f9399105dd6",
               "z": 2,
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "threats": [
                 {
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "Medium",
                   "modelType": "STRIDE",
                   "description": "Angriff auf Login-System aufgrund von Custom Krypto",
@@ -78,8 +78,8 @@
                   "mitigation": "Adäquate Autorisierung . man soll auch Pishingsmail ignorieren"
                 },
                 {
-                  "status": "Open",
-                  "severity": "High",
+                  "status": "Mitigated",
+                  "severity": "Medium",
                   "modelType": "STRIDE",
                   "description": "Auslesen von Logdateien in der Webapp(cookie)",
                   "type": "Information disclosure",
@@ -88,7 +88,7 @@
                   "mitigation": "Verschlüsselung und kein Speichern von Geheinmissen"
                 },
                 {
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "Medium",
                   "modelType": "STRIDE",
                   "title": "XSS Angriff",
@@ -100,13 +100,13 @@
               ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Login System\nWebapp\n+Mobile App"
                 },
                 ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -117,17 +117,17 @@
                 "height": 100
               },
               "position": {
-                "x": 626,
+                "x": 627,
                 "y": 186
               },
               "angle": 0,
               "id": "109659d6-48c1-4dc2-b36d-8e397d5107bf",
               "z": 3,
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "threats": [
                 {
-                  "status": "Open",
-                  "severity": "High",
+                  "status": "Mitigated",
+                  "severity": "Medium",
                   "modelType": "STRIDE",
                   "title": "DDoS Angriff",
                   "description": "Angriff via botnetzt DDoS vielen Anfragen an der Dienst",
@@ -136,7 +136,7 @@
                   "threatId": "070efae4-b198-49ce-8af7-6a2e8ec6f4e1"
                 },
                 {
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "Medium",
                   "modelType": "STRIDE",
                   "description": "Log Dateien Abfragen via Email Service.im Klartext verschickt und somit beliebig modifizierbar",
@@ -148,13 +148,13 @@
               ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
                   "text": "2-Faktor Authe\nntifizierungsdie\nnst"
                 },
                 ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -171,10 +171,10 @@
               "angle": 0,
               "id": "54c41145-c06a-40de-b366-e689856bdcb3",
               "z": 4,
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "threats": [
                 {
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "Low",
                   "modelType": "STRIDE",
                   "title": "Authentifizierung VPNAngriff",
@@ -184,8 +184,8 @@
                   "threatId": "329067bb-dd9b-42b7-a28c-8d46255a5a31"
                 },
                 {
-                  "status": "Open",
-                  "severity": "High",
+                  "status": "Mitigated",
+                  "severity": "Medium",
                   "modelType": "STRIDE",
                   "title": "symmetrischen Schlüssels Angriff",
                   "type": "Information disclosure",
@@ -196,13 +196,13 @@
               ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Telefonnumme\nr-API-Gateway"
                 },
                 ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -716,10 +716,10 @@
               "angle": 0,
               "id": "ece89a7e-0067-4ac3-972b-69fe34d40ee4",
               "z": 26,
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "threats": [
                 {
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "Medium",
                   "modelType": "STRIDE",
                   "mitigation": "Der Datenbank über SQL derart zu regeln, dass ausnahmslos alle Eingaben vor der Ausführung bereinigt werden",
@@ -731,13 +731,13 @@
               ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Telefonnummern DB"
                 },
                 ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -754,10 +754,10 @@
               "angle": 0,
               "id": "c58e9d1e-494f-4601-bb9e-8bcf168c4542",
               "z": 27,
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "threats": [
                 {
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "High",
                   "modelType": "STRIDE",
                   "description": "Angriff über SQL-Injektion (SQLi)",
@@ -769,13 +769,13 @@
               ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Telefonanvieter DB"
                 },
                 ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -818,11 +818,11 @@
               "angle": 0,
               "id": "b6c3a257-38e6-4ac3-9756-3752b1adfd13",
               "z": 29,
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "threats": [
                 {
-                  "status": "Open",
-                  "severity": "High",
+                  "status": "Mitigated",
+                  "severity": "Medium",
                   "modelType": "STRIDE",
                   "title": "SQL-Injektion Angriffe",
                   "description": "Angriff über SQL-Injektion (SQLi)",
@@ -833,13 +833,13 @@
               ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Log DB"
                 },
                 ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -1112,10 +1112,10 @@
               "angle": 0,
               "id": "ca9907e7-cf52-4b3c-9f00-852c84463727",
               "z": 36,
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "threats": [
                 {
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "Medium",
                   "modelType": "STRIDE",
                   "type": "Information disclosure",
@@ -1127,13 +1127,13 @@
               ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Information & Events\n(I&E)"
                 },
                 ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -1318,16 +1318,16 @@
                 "height": 80
               },
               "position": {
-                "x": 620,
+                "x": 616,
                 "y": 649
               },
               "angle": 0,
               "id": "73511280-1136-4847-acda-6527a6233894",
               "z": 44,
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "threats": [
                 {
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "High",
                   "modelType": "STRIDE",
                   "title": "SQL-Injektion Angriffe",
@@ -1339,13 +1339,13 @@
               ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Signaturen"
                 },
                 ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -1446,10 +1446,10 @@
               "angle": 0,
               "id": "bff54c95-b11b-4128-9a7b-e9c34e6de7ae",
               "z": 49,
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "threats": [
                 {
-                  "status": "Open",
+                  "status": "Mitigated",
                   "severity": "Medium",
                   "modelType": "STRIDE",
                   "mitigation": "Kein Speichern von Geheimnissen",
@@ -1461,13 +1461,13 @@
               ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Manager"
                 },
                 ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
