@@ -21,22 +21,34 @@
                 "height": 80
               },
               "position": {
-                "x": 28,
+                "x": 26,
                 "y": 169
               },
               "angle": 0,
               "id": "97f5da91-f5ca-4e38-ac9a-85069e681952",
               "z": 1,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "description": "Stehlen von Sensibel Daten",
+                  "type": "Spoofing",
+                  "title": "Stehl Angriff",
+                  "mitigation": "Schutz von Sensiblen Daten",
+                  "threatId": "26d1c522-7427-42e3-bcb3-6c2afd29bc31"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "User"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -62,7 +74,8 @@
                   "description": "Angriff auf Login-System aufgrund von Custom Krypto",
                   "type": "Tampering",
                   "title": "Custom Krypto  Angriff",
-                  "threatId": "e8ebde3b-069d-4b4b-8654-1f0c831699c1"
+                  "threatId": "e8ebde3b-069d-4b4b-8654-1f0c831699c1",
+                  "mitigation": "Adäquate Autorisierung . man soll auch Pishingsmail ignorieren"
                 },
                 {
                   "status": "Open",
@@ -71,7 +84,8 @@
                   "description": "Auslesen von Logdateien in der Webapp(cookie)",
                   "type": "Information disclosure",
                   "title": "Logdateien Angrif",
-                  "threatId": "5d45b00f-6cab-4cbc-a780-218d8f514b58"
+                  "threatId": "5d45b00f-6cab-4cbc-a780-218d8f514b58",
+                  "mitigation": "Verschlüsselung und kein Speichern von Geheinmissen"
                 }
               ],
               "attrs": {
@@ -93,8 +107,8 @@
                 "height": 100
               },
               "position": {
-                "x": 609,
-                "y": 124
+                "x": 626,
+                "y": 186
               },
               "angle": 0,
               "id": "109659d6-48c1-4dc2-b36d-8e397d5107bf",
@@ -240,8 +254,8 @@
               },
               "vertices": [
                 {
-                  "x": 293,
-                  "y": 31
+                  "x": 268,
+                  "y": 102
                 }
               ],
               "id": "0e6ab182-c495-4353-b9ec-41b824b15cd7",
@@ -283,8 +297,8 @@
               },
               "vertices": [
                 {
-                  "x": 543,
-                  "y": 38
+                  "x": 530,
+                  "y": 151
                 }
               ],
               "id": "d927b49c-a17d-4b88-b2f1-05391534d83d",
@@ -329,8 +343,8 @@
               },
               "vertices": [
                 {
-                  "x": 525,
-                  "y": 139
+                  "x": 523,
+                  "y": 222
                 }
               ],
               "id": "9c32b62f-4801-4e3f-a7b6-7d44bfbd9ad6",
@@ -368,52 +382,6 @@
               },
               "smooth": true,
               "source": {
-                "id": "109659d6-48c1-4dc2-b36d-8e397d5107bf"
-              },
-              "target": {
-                "id": "54c41145-c06a-40de-b366-e689856bdcb3"
-              },
-              "vertices": [
-                {
-                  "x": 735,
-                  "y": 58
-                }
-              ],
-              "id": "e98aa2ab-5555-404d-b719-8076f7fa7575",
-              "labels": [
-                {
-                  "position": {
-                    "distance": 0.5244724571629913,
-                    "offset": -24.127985219036045
-                  },
-                  "attrs": {
-                    "text": {
-                      "text": "2. Telefonnummerauf\nlösung",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 13,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
-              "smooth": true,
-              "source": {
                 "id": "54c41145-c06a-40de-b366-e689856bdcb3"
               },
               "target": {
@@ -421,16 +389,16 @@
               },
               "vertices": [
                 {
-                  "x": 746,
-                  "y": 129
+                  "x": 771,
+                  "y": 195
                 }
               ],
               "id": "9027738f-16e7-4bf5-b79a-204b63f77233",
               "labels": [
                 {
                   "position": {
-                    "distance": 0.4290131258776095,
-                    "offset": -27
+                    "distance": 0.5314475934125809,
+                    "offset": 17.68112252508497
                   },
                   "attrs": {
                     "text": {
@@ -467,8 +435,8 @@
               },
               "vertices": [
                 {
-                  "x": 966,
-                  "y": 61
+                  "x": 1003,
+                  "y": 127
                 }
               ],
               "id": "b210da61-60ba-4814-9be6-cb8c3e87eeae",
@@ -513,8 +481,8 @@
               },
               "vertices": [
                 {
-                  "x": 940,
-                  "y": 124
+                  "x": 979,
+                  "y": 202
                 }
               ],
               "id": "e2fe2aa9-55de-45a0-a3e6-19fb83eff3a1",
@@ -555,7 +523,7 @@
                 "id": "1d1cbe06-d6a0-4e03-8dce-e11d386b5330"
               },
               "target": {
-                "id": "97f5da91-f5ca-4e38-ac9a-85069e681952"
+                "id": "daafbd97-381f-41b4-b066-9f9399105dd6"
               },
               "vertices": [
                 {
@@ -577,7 +545,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "5.OTT",
+                      "text": "Antwort",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -612,16 +580,24 @@
               },
               "vertices": [
                 {
-                  "x": 658,
-                  "y": 49
+                  "x": 495,
+                  "y": 43
                 },
                 {
-                  "x": 741,
-                  "y": 206
+                  "x": 558,
+                  "y": 103
                 },
                 {
-                  "x": 641,
-                  "y": 233
+                  "x": 638,
+                  "y": 120
+                },
+                {
+                  "x": 743,
+                  "y": 222
+                },
+                {
+                  "x": 636,
+                  "y": 292
                 },
                 {
                   "x": 318,
@@ -633,8 +609,8 @@
               "labels": [
                 {
                   "position": {
-                    "distance": 0.7827752474149722,
-                    "offset": 55.87776015200028
+                    "distance": 0.057589679089147965,
+                    "offset": 42.222269873444986
                   },
                   "attrs": {
                     "text": {
@@ -678,6 +654,10 @@
                 {
                   "x": 840,
                   "y": 270
+                },
+                {
+                  "x": 830,
+                  "y": 244
                 },
                 {
                   "x": 822,
@@ -812,8 +792,8 @@
                 "height": 80
               },
               "position": {
-                "x": 575,
-                "y": 12
+                "x": 564,
+                "y": 16
               },
               "angle": 0,
               "id": "b6c3a257-38e6-4ac3-9756-3752b1adfd13",
@@ -863,7 +843,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 20",
+                      "text": "Antwort",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -896,6 +876,10 @@
               },
               "vertices": [
                 {
+                  "x": 679,
+                  "y": 137
+                },
+                {
                   "x": 678,
                   "y": 102
                 }
@@ -909,7 +893,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 21",
+                      "text": "Anfrage",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -955,7 +939,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 22",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -993,7 +977,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 23",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1039,7 +1023,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 24",
+                      "text": "Antwort",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1077,7 +1061,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 25",
+                      "text": "Anfrage",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1102,22 +1086,34 @@
                 "height": 80
               },
               "position": {
-                "x": 999,
-                "y": 334
+                "x": 1017,
+                "y": 348
               },
               "angle": 0,
               "id": "ca9907e7-cf52-4b3c-9f00-852c84463727",
               "z": 36,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "type": "Information disclosure",
+                  "title": "SQl-Injektion Angriff",
+                  "threatId": "0e673f1b-a8de-4910-9a01-c01d4ac33d1d",
+                  "description": "Angriff über SQL-Injektion (SQLi)",
+                  "mitigation": "Verwendung von kryptografische Protokollen"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 26"
+                  "text": "Information & Events\n(I&E)"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -1136,20 +1132,20 @@
               },
               "vertices": [
                 {
-                  "x": 762,
-                  "y": 325
+                  "x": 768,
+                  "y": 390
                 }
               ],
               "id": "dacccd46-5f7d-4dc5-af60-9e7b17d0762c",
               "labels": [
                 {
                   "position": {
-                    "distance": 0.23414873573495237,
-                    "offset": -38.64286455670403
+                    "distance": 0.4918188533929931,
+                    "offset": 17.9614520979761
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 27",
+                      "text": "I&E",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1157,52 +1153,6 @@
                 }
               ],
               "z": 37,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "size": {
-                "width": 10,
-                "height": 10
-              },
-              "smooth": true,
-              "source": {
-                "id": "aadc6352-6087-472c-85b8-bd61d534ba77"
-              },
-              "target": {
-                "id": "1d1cbe06-d6a0-4e03-8dce-e11d386b5330"
-              },
-              "vertices": [
-                {
-                  "x": 774,
-                  "y": 373
-                }
-              ],
-              "id": "ce189f66-5c6d-4787-8eca-f116bd0ebd62",
-              "labels": [
-                {
-                  "position": {
-                    "distance": 0.3249759963545417,
-                    "offset": -13.84941524057234
-                  },
-                  "attrs": {
-                    "text": {
-                      "text": "flow 28",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 38,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
@@ -1248,32 +1198,6 @@
                 },
                 ".connection": {
                   "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Process",
-              "size": {
-                "width": 100,
-                "height": 100
-              },
-              "position": {
-                "x": 458,
-                "y": 447
-              },
-              "angle": 0,
-              "id": "1ca8495b-6188-4ef9-a61a-35b3f8fb2cc0",
-              "z": 40,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Manager"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             },
@@ -1334,7 +1258,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 32"
+                  "text": "Export\nManagement\nReport"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -1348,8 +1272,8 @@
                 "height": 80
               },
               "position": {
-                "x": 802,
-                "y": 474
+                "x": 847,
+                "y": 492
               },
               "angle": 0,
               "id": "d562e4ea-d0b4-499e-8e02-cca9e914c440",
@@ -1360,7 +1284,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 33"
+                  "text": "Management Reports"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -1380,16 +1304,28 @@
               "angle": 0,
               "id": "73511280-1136-4847-acda-6527a6233894",
               "z": 44,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "title": "SQL-Injektion Angriffe",
+                  "description": "Angriff über SQL-Injektion (SQLi)",
+                  "type": "Information disclosure",
+                  "mitigation": "Verschlüsselung",
+                  "threatId": "f2a88ee3-5736-45f8-a576-65d57d0dce31"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 34"
+                  "text": "Signaturen"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -1478,6 +1414,44 @@
               }
             },
             {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 372,
+                "y": 464
+              },
+              "angle": 0,
+              "id": "bff54c95-b11b-4128-9a7b-e9c34e6de7ae",
+              "z": 49,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "mitigation": "Kein Speichern von Geheimnissen",
+                  "title": "Stehl Angriff",
+                  "description": "Passwort wurde von Angreifer gestohlen",
+                  "type": "Spoofing",
+                  "threatId": "5fd03e52-287a-4ec8-9419-4f9c2744425b"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Manager"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
               "type": "tm.Flow",
               "size": {
                 "width": 10,
@@ -1485,26 +1459,26 @@
               },
               "smooth": true,
               "source": {
-                "id": "1ca8495b-6188-4ef9-a61a-35b3f8fb2cc0"
+                "id": "bff54c95-b11b-4128-9a7b-e9c34e6de7ae"
               },
               "target": {
                 "id": "9f2bcea0-c127-4010-9c4f-85f67af5e495"
               },
               "vertices": [],
-              "id": "f63d0806-b851-412a-8f67-773aadd425d8",
+              "id": "ffbc184e-9fc4-4720-bb35-de0fdda484f7",
               "labels": [
                 {
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 37",
+                      "text": "Anfrage",
                       "font-weight": "400",
                       "font-size": "small"
                     }
                   }
                 }
               ],
-              "z": 47,
+              "z": 50,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
@@ -1523,16 +1497,62 @@
               },
               "smooth": true,
               "source": {
-                "id": "1ca8495b-6188-4ef9-a61a-35b3f8fb2cc0"
-              },
-              "target": {
                 "id": "9f2bcea0-c127-4010-9c4f-85f67af5e495"
               },
+              "target": {
+                "id": "d562e4ea-d0b4-499e-8e02-cca9e914c440"
+              },
               "vertices": [],
-              "id": "d101046d-95eb-46ad-8150-cd8986a7cb46",
+              "id": "4dfb5543-6639-434e-a0bd-0bb4a508d365",
               "labels": [
                 {
                   "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Export",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 51,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "109659d6-48c1-4dc2-b36d-8e397d5107bf"
+              },
+              "target": {
+                "id": "54c41145-c06a-40de-b366-e689856bdcb3"
+              },
+              "vertices": [
+                {
+                  "x": 777,
+                  "y": 255
+                }
+              ],
+              "id": "05addc61-68e9-4ba4-ac8d-313e7d3476bf",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.42966977097503933,
+                    "offset": 11.946509770278064
+                  },
                   "attrs": {
                     "text": {
                       "text": "Anfrage",
@@ -1542,7 +1562,45 @@
                   }
                 }
               ],
-              "z": 48,
+              "z": 52,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "109659d6-48c1-4dc2-b36d-8e397d5107bf"
+              },
+              "target": {
+                "id": "aadc6352-6087-472c-85b8-bd61d534ba77"
+              },
+              "vertices": [],
+              "id": "754cddc8-037a-4ee5-9384-3b15c5d2a5b0",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "I&E",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 53,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
